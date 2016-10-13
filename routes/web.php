@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'PageController@mainPage')->name('main');
+Route::get('/', 'PageController@homePage')->name('home');
 
 Route::get('/text-generator', 'PageController@textGenerator')->name('generator.text');
 

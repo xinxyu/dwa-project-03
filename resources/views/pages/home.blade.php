@@ -1,12 +1,12 @@
 @extends('layouts.master')
 
 @section('title')
-    Text Generator | Code Crony
+    Main | Code Crony
 @stop
 
 @section('bodyContent')
     <div class="text-center">
-        <h1>Text Generator</h1>
-        <p>Generate placeholder text</p>
+        <h1>Code Crony</h1>
+        <p class="lead">A set of tools to aid development</p>
     </div>
 @stop

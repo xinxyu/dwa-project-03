@@ -8,9 +8,9 @@ use App\Http\Requests;
 
 class PageController extends Controller
 {
-    public function mainPage()
+    public function homePage()
     {
-        return view('pages.main');
+        return view('pages.home');
     }
 
     public function textGenerator()
