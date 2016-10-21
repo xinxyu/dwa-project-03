@@ -18,7 +18,17 @@ class PageController extends Controller
         return view('pages.textGenerator');
     }
 
+    public function textGeneratorProcess(Request $request)
+    {
+        return view('pages.textGenerator');
+    }
+
     public function userGenerator()
+    {
+        return view('pages.userGenerator');
+    }
+
+    public function userGeneratorProcess(Request $request)
     {
         return view('pages.userGenerator');
     }

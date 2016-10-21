@@ -14,5 +14,7 @@
 Route::get('/', 'PageController@homePage')->name('home');
 
 Route::get('/text-generator', 'PageController@textGenerator')->name('generator.text');
+Route::post('/text-generator', 'PageController@textGenerator')->name('generator.text.process');
 
 Route::get('/user-generator','PageController@userGenerator')->name('generator.user');
+Route::post('/user-generator','PageController@userGenerator')->name('generator.user.process');
