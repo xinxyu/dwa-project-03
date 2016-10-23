@@ -178,6 +178,12 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /*
+         * External required packages
+         */
+
+        Magyarjeti\LaravelLipsum\LipsumServiceProvider::class,
+
     ],
 
     /*
@@ -226,6 +232,11 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        /*
+        * External required packages
+        */
+
+        'Lipsum' => Magyarjeti\LaravelLipsum\LipsumFacade::class,
     ],
 
 ];

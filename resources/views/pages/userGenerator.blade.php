@@ -5,8 +5,7 @@
 @stop
 
 @section('bodyContent')
-    <div class="text-center">
+    <div class="page-header text-center">
         <h1>User Generator</h1>
-        <p>Generate random user data</p>
     </div>
 @stop

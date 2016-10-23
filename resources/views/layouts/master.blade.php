@@ -8,10 +8,10 @@
     </title>
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
     <link rel="stylesheet" href="css/font-awesome.min.css"/>
     <script rel="text/javascript" src="js/jquery.min.js"></script>
     <script rel="text/javascript" src="js/bootstrap.min.js"></script>
+    <script rel="text/javascript" src="js/clipboard.min.js"></script>
     <script rel="text/javascript" src="js/main.js"></script>
     @yield('headContent')
 </head>
@@ -42,6 +42,8 @@
 <section class="container" role="main">
 @yield('bodyContent')
 </section>
+<footer>
+</footer>
 </body>
 
 </html>

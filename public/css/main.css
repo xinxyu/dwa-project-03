@@ -10,3 +10,12 @@ body {
 #app-description-area{
     padding-bottom: 30px;
 }
+
+#text-container{
+    margin-top: 30px;
+}
+
+#text-area{
+    resize: none;
+    height:50vh;
+}
