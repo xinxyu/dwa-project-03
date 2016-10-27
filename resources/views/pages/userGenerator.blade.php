@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-    User Generator | Code Crony
+    User Generator | Developer's Best Friend
 @stop
 
 @section('bodyContent')

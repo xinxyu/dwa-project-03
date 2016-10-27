@@ -1,12 +1,12 @@
 @extends('layouts.master')
 
 @section('title')
-    Main | Code Crony
+    Main | Developer's Best Friend
 @stop
 
 @section('bodyContent')
     <div id="app-description-area" class="col-xs-12 row text-center">
-        <h1>Code Crony</h1>
+        <h1>Developer's Best Friend</h1>
         <p class="lead">A set of tools to aid development</p>
     </div>
     <div id="tool-description-area" class="row">

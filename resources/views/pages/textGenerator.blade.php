@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-    Text Generator | Code Crony
+    Text Generator | Developer's Best Friend
 @stop
 
 @section('headContent')

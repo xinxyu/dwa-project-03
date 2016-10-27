@@ -1,10 +1,17 @@
-# CSCI E-15 Project 3: Code Crony
+# CSCI E-15 Project 3: Developer's Best Friend
 
 ## Live URL
 <http://p3.xinxiongyu.com/>
 
 ## Description
-A suite of tools to help development.
+Developer's Best Friend is a suite of tools to help development.
+It includes a text generator which allows you to generate a specified number of paragraphs of placeholder text.
+A user generator is also included which creates mock user data. Mock user data includes
+* Name (first and last)
+* Gender
+* Birthday
+* Phone Number
+* Email Address
 
 ## Demo
 

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-        @yield('title', 'Code Crony')
+        @yield('title', 'Developer\'s Best Friend')
     </title>
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
@@ -27,7 +27,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">Code Crony</a>
+                <a class="navbar-brand" href="/">Developer's Best Friend</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
