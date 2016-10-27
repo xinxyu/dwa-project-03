@@ -63,7 +63,10 @@
         <div class="col-md-offset-4 col-md-4 col-xs-12">
             <button type="submit" class="btn btn-default btn-primary col-xs-5">Generate Text</button>
             <div class="col-xs-1"></div>
-            <button id="copy-button" type="button" class="btn btn-default btn-secondary col-xs-5" data-clipboard-action="copy" data-clipboard-target="#text-area">
+            <button id="copy-button" type="button" class="btn btn-default btn-primary col-xs-5"
+                    data-clipboard-action="copy"
+                    data-clipboard-target="#text-area"
+                    title="Copied">
                 Copy to Clipboard
             </button>
         </div>

@@ -18,7 +18,7 @@
         </div>
         <div class="col-md-6 col-xs-12 text-center">
             <a href="user-generator" class="tool-icon"><i class="fa fa-users fa-5x" aria-hidden="true"></i></a>
-            <a href="text-generator"><h2>User Generator</h2></a>
+            <a href="user-generator"><h2>User Generator</h2></a>
             <p>Need user data to test your application? Use this user generator to get some mock user data.</p>
         </div>
     </div>
