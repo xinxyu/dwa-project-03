@@ -14,8 +14,7 @@ A user generator is also included which creates mock user data. Mock user data i
 * Email Address
 
 ## Demo
-<http://www.screencast.com/users/xxy762/folders/Jing/media/0443b645-a5b2-4eb8-9a94-063b1ecda364>
-
+<http://www.screencast.com/t/usg7VKyoS6>
 
 ## Outside code and resources
 * Laravel Ipsum <https://github.com/magyarjeti/laravel-lipsum>
