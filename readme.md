@@ -20,6 +20,7 @@ A user generator is also included which creates mock user data. Mock user data i
 ## Outside code and resources
 * Laravel Ipsum <https://github.com/magyarjeti/laravel-lipsum>
 * Bootstrap: <http://getbootstrap.com/>
+* Fontawesome: <http://fontawesome.io/>
 * ClipboardJS: <https://clipboardjs.com/>
 * List of Popular First Names: <https://www.ssa.gov/oact/babynames/decades/century.html>
 * List of Popular Last Names: <http://surnames.behindthename.com/top/lists/united-states/1990>
