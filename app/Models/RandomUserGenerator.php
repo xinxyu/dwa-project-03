@@ -93,11 +93,23 @@ class RandomUserGenerator
         }
     }
 
+    protected function generatePhoneNumber(){
+        for($i = 0; $i < count($this->randomUsers); $i++){
+            $areaCode  = random_int(200,999);
+            $centralOfficeCode = random_int(200,999);
+            $subscriberNumber   = random_int(1000,9999);
+
+            $this->randomUsers[$i]["phoneNumber"] = $areaCode. "-". $centralOfficeCode. "-".$subscriberNumber;
+        }
+    }
+
     public function generateUsers($number,$gender){
 
         $this->generateNames($number,$gender);
+        $this->generatePhoneNumber();
         $this->generateEmails();
         $this->generateBirthdays();
+
         return $this->randomUsers;
 
     }

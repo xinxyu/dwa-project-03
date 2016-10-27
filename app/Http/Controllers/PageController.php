@@ -51,9 +51,9 @@ class PageController extends Controller
     {
         $randUserGen = new RandomUserGenerator();
 
-        $randomUsers = $randUserGen->generateUsers(5, "Mixed");
+        $randomUsers = $randUserGen->generateUsers(4, "Mixed");
 
-        return view('pages.userGenerator')->with(['numberOfUsers' => 5, 'gender' => 'Mixed','randomUsers'=> $randomUsers]);
+        return view('pages.userGenerator')->with(['numberOfUsers' => 4, 'gender' => 'Mixed','randomUsers'=> $randomUsers]);
     }
 
     public function userGeneratorProcess(Request $request)

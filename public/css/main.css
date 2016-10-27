@@ -15,9 +15,14 @@ body {
     margin-top: 30px;
 }
 
+
 #text-area{
     resize: none;
     height:50vh;
+}
+
+.user-card{
+    margin-top:30px;
 }
 
 .error{

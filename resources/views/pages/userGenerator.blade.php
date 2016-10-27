@@ -68,11 +68,11 @@
             <div class="tab-content">
                 <div role="tabpanel" class="tab-pane active" id="text">
                     @foreach($randomUsers as $user)
-                        <div>
-                            <div>First Name: {{ $user["firstName"] }}</div>
-                            <div>Last Name: {{ $user["lastName"] }}</div>
-                            <div>Gender: {{ $user["gender"] }}</div>
+                        <div class="user-card col-md-6">
+                            <h4>{{ $user["firstName"] }} {{ $user["lastName"] }}</h4>
+                            <div>Gender: {{ $user["gender"]}}</div>
                             <div>Birthday: {{ $user["birthday"]->format('m/d/Y') }}</div>
+                            <div>Phone Number: {{ $user["phoneNumber"] }}</div>
                             <div>Email: {{ $user["emailAddress"] }}</div>
                         </div>
                     @endforeach
