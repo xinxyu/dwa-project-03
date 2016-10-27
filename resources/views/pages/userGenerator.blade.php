@@ -9,10 +9,10 @@
         <h1>User Generator</h1>
     </div>
 
-    <form method="POST" action="/user-generator" class="form-inline row" >
+    <form method="POST" action="/user-generator"  >
         {{csrf_field()}}
-        <div class="col-md-1 col-xs-0"></div>
-        <div class="form-group col-md-3 col-xs-12">
+
+        <div class="form-group col-md-4 col-xs-12 col-md-offset-4">
             <label for="numberOfUsers">Number of Users <small>(max 20)</small></label>
             <input type="text" id="numberOfUsers" name="numberOfUsers" class="form-control" value="{{ $numberOfUsers }}"/>
             @if(isset($errors) && $errors->get('numberOfUsers'))
@@ -24,7 +24,7 @@
                 </div>
             @endif
         </div>
-        <div class="form-group col-md-4 col-xs-12" >
+        <div class="form-group col-md-12 col-xs-12 col-md-offset-4" >
             <label class="control-label">Gender of Users</label><br/>
             <label class="form-check-label radio-inline">
                 <input type="radio" name="gender" value="Male" {{ $gender == "Male"  ? "checked" : ""}}/>
@@ -47,18 +47,15 @@
                 </div>
             @endif
         </div>
-        <div class="form-group col-md-3 col-xs-12" role="group">
-            <br/>
-            <button type="submit" class="btn btn-default btn-primary">Generate Users</button>
-        </div>
+        <button type="submit" class="btn btn-default btn-primary col-md-4 col-md-offset-4 col-xs-12">Generate Users</button>
 
-        <div class="col-md-1 col-xs-0"></div>
+
+
     </form>
 
 
     <div id="user-data-container">
-        <div class="col-md-1 col-xs-0"></div>
-        <div class="col-md-10 col-xs-12 form-group">
+        <div class="col-xs-12">
             <h3>Users</h3>
             <ul class="nav nav-tabs">
                 <li role="presentation" class="active"><a href="#text" aria-controls="text" role="tab" data-toggle="tab">Text</a></li>
@@ -84,6 +81,5 @@
             </div>
 
         </div>
-        <div class="col-md-1 col-xs-0"></div>
     </div>
 @stop

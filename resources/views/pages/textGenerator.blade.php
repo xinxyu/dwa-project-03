@@ -19,10 +19,9 @@
         <h1>Text Generator</h1>
     </div>
 
-    <form method="POST" action="/text-generator" class="form-inline row" >
+    <form method="POST" action="/text-generator" >
         {{csrf_field()}}
-        <div class="col-md-1 col-xs-0"></div>
-        <div class="form-group col-md-3 col-xs-12">
+        <div class="form-group col-md-4 col-xs-12 col-md-offset-4">
             <label for="numberOfParagraphs">Number of Paragraphs <small>(max 20)</small></label>
             <input type="text" id="numberOfParagraphs" name="numberOfParagraphs" class="form-control" value="{{ $numberOfParagraphs }}"/>
             @if(isset($errors) && $errors->get('numberOfParagraphs'))
@@ -34,7 +33,7 @@
                 </div>
             @endif
         </div>
-        <div class="form-group col-md-4 col-xs-12" >
+        <div class="form-group col-md-4 col-xs-12 col-md-offset-4" >
             <label class="control-label">Paragraph Length </label><br/>
             <label class="form-check-label radio-inline">
                 <input type="radio" name="paragraphLength" value="Short" {{$paragraphLength == "Short"  ? "checked" : ""}}/>
@@ -61,25 +60,21 @@
                 </div>
             @endif
         </div>
-        <div class="form-group col-md-3 col-xs-12" role="group">
-            <br/>
-            <button type="submit" class="btn btn-default btn-primary">Generate Text</button>
-            <button id="copy-button" type="button" class="btn btn-default btn-secondary" data-clipboard-action="copy" data-clipboard-target="#text-area">
+        <div class="col-md-offset-4 col-md-4 col-xs-12">
+            <button type="submit" class="btn btn-default btn-primary col-xs-5">Generate Text</button>
+            <div class="col-xs-1"></div>
+            <button id="copy-button" type="button" class="btn btn-default btn-secondary col-xs-5" data-clipboard-action="copy" data-clipboard-target="#text-area">
                 Copy to Clipboard
             </button>
         </div>
-
-        <div class="col-md-1 col-xs-0"></div>
     </form>
 
     <div id="text-container">
-        <div class="col-md-1 col-xs-0"></div>
-        <div class="col-md-10 col-xs-12 form-group">
+        <div class="col-xs-12">
             <textarea id="text-area" class="form-control">
                 {!! $text !!}
             </textarea>
         </div>
-        <div class="col-md-1 col-xs-0"></div>
     </div>
 
 @stop
