@@ -39,7 +39,7 @@
         </div>
     </nav>
 </header>
-<section class="container" role="main">
+<section class="container main-content-area" role="main">
 @yield('bodyContent')
 </section>
 <footer>

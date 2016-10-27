@@ -21,6 +21,10 @@ body {
     height:50vh;
 }
 
+.main-content-area{
+    padding-bottom: 30px;
+}
+
 .user-card{
     margin-top:30px;
 }

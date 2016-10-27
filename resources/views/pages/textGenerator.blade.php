@@ -74,6 +74,7 @@
 
     <div id="text-container">
         <div class="col-xs-12">
+            <h3>Text</h3>
             <textarea id="text-area" class="form-control">
                 {!! $text !!}
             </textarea>
